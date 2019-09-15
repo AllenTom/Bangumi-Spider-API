@@ -1,0 +1,16 @@
+version: "3"
+services:
+  api:
+    build:
+      context: .
+    environment:
+      - MONGO_ADDRESS=
+      - MONGO_USERNAME=
+      - MONGO_PASSWORD=
+    ports:
+      - 8898:8990
+    networks:
+      - spider_bangumi-net
+networks:
+  spider_bangumi-net:
+    external: true

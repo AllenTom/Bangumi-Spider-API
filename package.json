@@ -1,0 +1,19 @@
+{
+  "name": "bangumi-spider-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/mongoose": "^5.5.17",
+    "@types/restify": "^8.4.0",
+    "@types/restify-cors-middleware": "^1.0.1",
+    "dotenv": "^8.1.0",
+    "moment": "^2.24.0",
+    "mongoose": "^5.7.1",
+    "restify": "^8.4.0",
+    "restify-cors-middleware": "^1.1.1"
+  },
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  }
+}
