@@ -8,7 +8,7 @@
     "@types/restify": "^8.4.0",
     "@types/restify-cors-middleware": "^1.0.1",
     "dotenv": "^8.1.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "mongoose": "^5.7.1",
     "restify": "^8.4.0",
     "restify-cors-middleware": "^1.1.1"
